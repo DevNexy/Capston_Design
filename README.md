@@ -68,17 +68,17 @@ The platform can be modified and utilized with various contents so that it can c
 
 ---
 ## <결과 보고> ~22.05.27
-## 과제 요약
+## 1. 과제 요약
 다방면으로 활용 가능한 웹 기반의 메타버스 플랫폼 개발과 동시에 Unity 프로젝트도 제작함. 
 
-[Babylon.js]
+[Babylon.js]   
 [구현부분 자세히 보러가기](https://github.com/devjisong/Capston_Design/tree/main/Babylon.js)
 - main 화면에 공학관 및 그 주변을 구현하기 위해 tree 에셋을 복제해 여러 개를 생성하고 잔디 부분은 material을 사용해 mapping 함. 공학관 건물은 blender를 사용해 제작함.
 - camera는 target을 palyer로 설정해 따라다닐 수 있게 함.
 - player는 w와 s로 앞뒤 이동, a와 d로 rotation.y 값을 변경해 좌우 이동을 적용해 주고, 걷는 효과를 위해 walk 애니메이션을 적용함.
 - 특정 위치에 있는 버튼 클릭 시 다음 장소로 이동 및 360 이미지를 메타버스 안에서 구현함. 이때 클릭 값을 이용해 scene 전환을 해줌.
 
-[Unity]
+[Unity]   
 [구현부분 자세히 기보러가기](https://github.com/devjisong/Capston_Design/tree/main/Unity)
 - main 화면에 공학관 및 주변을 구현하기 위해 여러 에셋들을 구매, 배치함.
 - camera는 player의 자식으로 넣어주어 player의 시점으로 보일 수 있게 함.
@@ -89,20 +89,25 @@ The platform can be modified and utilized with various contents so that it can c
 - <360 이미지로 둘러보기>는 먼저 360 카메라로 이미지를 촬영 후 sphere, material을 생성함. 그 후 inspector 창에서 이미지와 material을 cubemap 형식으로 변경, 적용해 줌. 추가적으로 버튼 이벤트를 만들어 다른 이미지로의 scene 이동을 적용함.
 - <각 층의 정보제공>은 panel에서 정보 리스트를 작성 후 버튼 이벤트를 만들어 다른 리스트로의 scene 이동을 적용함.
 
-## 과제 목적
+## 2. 과제 목적
 COVID-19의 여파로 많은 인파가 모이는 행사들은 대부분 연기되거나 시행되기 어려워졌고, 상황에 따라 일부는 비대면으로 진행되고는 했다. 상황이 나아지지 않고 지속되자 비대면으로 웹상에서 행사를 즐기는 등 다양한 문화적, 사회적 활동을 할 수 있는 메타버스가 더욱 주목받기 시작했다. 그로 인해 다방면에서 메타버스를 찾는 등 해당 기술에 대한 수요가 많아졌다.
 
 따라서 이전의 프로그램들과 달리 사용자의 관점에서 접근하고 사용하기 편리하도록 웹에서 구동되는 메타버스 플랫폼을 개발하고자 한다.
 
-## 과제 내용
+## 3. 과제 내용
 과제를 진행하기에 앞서 플랫폼 개발에 사용할 언어인 < Babylon.js >에 대해서 이전에 배우고 사용해 본 경험이 전무하기에 이 부분에 대해서 (주) 더 픽트에서 도움을 받아 해당 언어에 대해서 공부하는 기간을 가짐.
-- 4월 12~17일, 4월 25~5월 1일 : event 종류(window의 event와 babylon의 event)와 instance, clone의 개념과 예제에 대해 공부함
+
+- 4월 12~5월 1일 : event 종류(window의 event와 babylon의 event)와 instance, clone의 개념과 예제에 대해 공부함
 - 5월 2~15일 : class(js형 클래스와 ts형 클래스)와 waterMaterial, shadow, hl(highlight), glow의 개념과 예제에 대해 공부함
-- 5월 16~27일 : 개발 및 마무리
+- 5월 16~27일 : 개발 및 마무리   
 
 [초기 구현 계획]
 
+<img src="https://user-images.githubusercontent.com/92451281/170536173-09abb9b7-8f00-4bd8-bdf3-d6819fc68959.png" width="50%" height="50%">
+
 [개발 구조도]
+
+<img src="https://user-images.githubusercontent.com/92451281/170535999-30a39d82-fc12-4556-a7e1-28297853dda9.png" width="50%" height="50%">
 
 ㈜더 픽트에서 제공한 Babylon.js 예제를 공부, 활용하여 초기 구현 계획을 바탕으로 
 다음과 같이 메타버스 플랫폼을 개발함
