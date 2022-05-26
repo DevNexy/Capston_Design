@@ -79,7 +79,7 @@ The platform can be modified and utilized with various contents so that it can c
 - 특정 위치에 있는 버튼 클릭 시 다음 장소로 이동 및 360 이미지를 메타버스 안에서 구현함. 이때 클릭 값을 이용해 scene 전환을 해줌.
 
 [Unity]   
-[구현부분 자세히 기보러가기](https://github.com/devjisong/Capston_Design/tree/main/Unity)
+[구현부분 자세히 보러가기](https://github.com/devjisong/Capston_Design/tree/main/Unity)
 - main 화면에 공학관 및 주변을 구현하기 위해 여러 에셋들을 구매, 배치함.
 - camera는 player의 자식으로 넣어주어 player의 시점으로 보일 수 있게 함.
 - player는 w, a, s, d로 상하좌우 이동, space로 점프, 마우스로 시야 이동을 적용해 줌.
