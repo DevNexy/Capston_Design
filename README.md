@@ -72,14 +72,14 @@ The platform can be modified and utilized with various contents so that it can c
 다방면으로 활용 가능한 웹 기반의 메타버스 플랫폼 개발과 동시에 Unity 프로젝트도 제작함. 
 
 [Babylon.js]
-[구현부분 자세히 보러가기]
+[구현부분 자세히 보러가기](https://github.com/devjisong/Capston_Design/tree/main/Babylon.js)
 - main 화면에 공학관 및 그 주변을 구현하기 위해 tree 에셋을 복제해 여러 개를 생성하고 잔디 부분은 material을 사용해 mapping 함. 공학관 건물은 blender를 사용해 제작함.
 - camera는 target을 palyer로 설정해 따라다닐 수 있게 함.
 - player는 w와 s로 앞뒤 이동, a와 d로 rotation.y 값을 변경해 좌우 이동을 적용해 주고, 걷는 효과를 위해 walk 애니메이션을 적용함.
 - 특정 위치에 있는 버튼 클릭 시 다음 장소로 이동 및 360 이미지를 메타버스 안에서 구현함. 이때 클릭 값을 이용해 scene 전환을 해줌.
 
 [Unity]
-[구현부분 자세히 기보러가기]
+[구현부분 자세히 기보러가기](https://github.com/devjisong/Capston_Design/tree/main/Unity)
 - main 화면에 공학관 및 주변을 구현하기 위해 여러 에셋들을 구매, 배치함.
 - camera는 player의 자식으로 넣어주어 player의 시점으로 보일 수 있게 함.
 - player는 w, a, s, d로 상하좌우 이동, space로 점프, 마우스로 시야 이동을 적용해 줌.
