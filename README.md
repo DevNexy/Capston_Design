@@ -166,7 +166,7 @@ Based on the initial implementation plan by studying and utilizing Babylon.js ex
 Developed a metaverse platform as follows   
 
 Babylon.js implemented the parts that can be developed using the learned parts as much as possible, but there was a time limit to learn all the parts necessary for development within a limited period of one semester. Therefore, the parts that have not been implemented are further implemented as Unity as follows:
-Similar items to the Metabus platform (Babylon.js, Unity) developed by the project include Chuncheon Coffee City Festa (https://metaverse.cccf.co.kr/)) developed by The Pict Co., Ltd   
+Similar items to the Metaverse platform (Babylon.js, Unity) developed by the project include Chuncheon Coffee City Festa (https://metaverse.cccf.co.kr/)) developed by The Pict Co., Ltd   
 
 This item implements a metaverse, moves players from inside, and can enjoy various functions such as games and communication with other users. In addition, 360 images and information on cafes are provided through the major topography of Chuncheon's five major coffee streets   
 
