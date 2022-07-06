@@ -93,20 +93,20 @@ Using the software village on the first floor of the engineering building as an 
 At the same time as developing a web-based metaverse platform that can be used in many ways, the Unity project is also produced.   
 
 [Babylon.js]   
-[구현부분 자세히 보러가기](https://github.com/devjisong/Capston_Design/tree/main/Babylon.js)
+[구현부분 자세히 보러가기](https://github.com/DevNexy/Capston_Design/tree/main/Babylon.js)
 - main 화면에 공학관 및 그 주변을 구현하기 위해 tree 에셋을 복제해 여러 개를 생성하고 잔디 부분은 material을 사용해 mapping 함. 공학관 건물은 blender를 사용해 제작함.
 - camera는 target을 player로 설정해 따라다닐 수 있게 함.
 - player는 w와 s로 앞뒤 이동, a와 d로 rotation.y 값을 변경해 좌우 이동을 적용해 주고, 걷는 효과를 위해 walk 애니메이션을 적용함.
 - 특정 위치에 있는 버튼 클릭 시 다음 장소로 이동 및 360 이미지를 메타버스 안에서 구현함. 이때 클릭 값을 이용해 scene 전환을 해줌.
 
-[Get a closer look at the implementation](https://github.com/devjisong/Capston_Design/tree/main/Babylon.js)
+[Get a closer look at the implementation](https://github.com/DevNexy/Capston_Design/tree/main/Babylon.js)
 - In order to implement the engineering center and its surroundings on the main screen, several tree assets are duplicated and the grass part is mapped using material. The engineering building is built using blender.
 - Camera sets target to player so that it can follow.
 - The player moves back and forth with w and s, changes rotation.y values with a and d to apply left and right movement, and applies walk animation for walking effect.
 - When you click a button in a specific location, you move to the next location and implement the 360 image in the Metaverse. At this time, use the click value to change the scene.
 
 [Unity]   
-[구현부분 자세히 보러가기](https://github.com/devjisong/Capston_Design/tree/main/Unity)
+[구현부분 자세히 보러가기](https://github.com/DevNexy/Capston_Design/tree/main/Unity)
 - main 화면에 공학관 및 주변을 구현하기 위해 여러 에셋들을 구매, 배치함.
 - camera는 player의 자식으로 넣어주어 player의 시점으로 보일 수 있게 함.
 - player는 w, a, s, d로 상하좌우 이동, space로 점프, 마우스로 시야 이동을 적용해 줌.
@@ -116,7 +116,7 @@ At the same time as developing a web-based metaverse platform that can be used i
 - <360 이미지로 둘러보기>는 먼저 360 카메라로 이미지를 촬영 후 sphere, material을 생성함. 그 후 inspector 창에서 이미지와 material을 cubemap 형식으로 변경, 적용해 줌. 추가적으로 버튼 이벤트를 만들어 다른 이미지로의 scene 이동을 적용함.
 - <각 층의 정보제공>은 panel에서 정보 리스트를 작성 후 버튼 이벤트를 만들어 다른 리스트로의 scene 이동을 적용함.
 
-[Get a closer look at the implementation](https://github.com/devjisong/Capston_Design/tree/main/Unity)
+[Get a closer look at the implementation](https://github.com/DevNexy/Capston_Design/tree/main/Unity)
 - Purchased and placed several assets to implement the engineering center and surroundings on the main screen.
 - Camera is put as a child of the player so that it can be seen as a player's point of view.
 - The player moves up and down in w, a, s, and d, jumps in space, and moves the field of view with the mouse.
